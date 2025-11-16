@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+<title> Contacts Portfolio Aïssatou </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+<ul>
+<li><a href="Accueil.html">Accueil</a></li>
+<li><a href="A propos.html">A propos</a></li>
+<li><a href="Compétences.html">Compétences</a></li>
+<li><a href="Projets.html">Projets</a></li>
+<li><a href="Contacts.html" class="active">Contacts</a></li>
+</ul>
+</nav>
+<section class="contact">
+<h1> Me contacter</h1>
+<p class="contact-intro">
+Une question, un projet, une collaboration?
+Remplissez ce formulaire afin que nous puissions en échanger
+</p>
+<form class="contact-form"id="contactForm">
+>
+<label> Nom </label>
+<input type="text" placeholder="Votre nom" required>
+<label> Email </label>
+<input type="text" placeholder="Votre email" required>
+<label> Objet </label>
+<input type="text" placeholder="Sujet du message" required>
+<label> Message </label>
+<input type="text" placeholder="Ecrivez votre message" required>
+<button type="submit" class="btn">Envoyer</button>
+<p id="formMessage" style="font-weight:bold;"></p>
+</form>
+</section>
+ <footer class="site-footer container">
+    <p>© <span id="year4"></span> Aissatou — Tous droits réservés</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
